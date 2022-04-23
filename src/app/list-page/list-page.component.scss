@@ -1,0 +1,47 @@
+::ng-deep {
+    .mat-toolbar.mat-toolbar-single-row{
+        background-color: grey;
+        span {
+            color:#fff;
+        }
+    }
+    .search-and-table-section {
+        margin: 20px auto 0px auto;
+        width: 1000px;
+
+        .example-full-width {
+            width: 100%;
+            min-width: 500px;
+        }
+    }
+
+    table {
+        th.column {
+            font-size: 14px;
+            font-weight: 500;
+            color: dimgrey;
+        }
+        th.action-columns {
+            font-size: 14px;
+            font-weight: 500;
+            color: dimgrey;
+        }
+        td.mat-cell:first-of-type {
+            padding-left:0px;
+        }
+        td, span.column {
+            text-align: center;
+            color:grey;
+        }
+        td, span.action-columns, .material-symbols-outlined {
+            text-align: center;
+            color:grey;
+            font-size:20px;
+            margin-left:4px;
+            cursor: pointer;
+        }
+        td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+            padding-right: 10px;
+        }
+    }
+}

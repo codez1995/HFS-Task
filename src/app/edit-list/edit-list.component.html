@@ -1,0 +1,30 @@
+<form class="example-form" [formGroup]="editAddForm">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Movie Name</mat-label>
+      <input matInput placeholder="Movie Name" formControlName="movieName">
+    </mat-form-field>
+    <small *ngIf="editAddForm.controls['movieName'].hasError('required') && editAddForm.controls['movieName'].touched"
+      class="form-error-msg">Movie Name is required</small>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Actor Name</mat-label>
+        <input matInput placeholder="Actor Name" formControlName="movieActor">
+      </mat-form-field>
+      <small *ngIf="editAddForm.controls['movieActor'].hasError('required') && editAddForm.controls['movieActor'].touched"
+      class="form-error-msg">Actor Name is required</small>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Actress Name</mat-label>
+        <input matInput placeholder="Actress Name" formControlName="movieActress">
+      </mat-form-field>
+      <small *ngIf="editAddForm.controls['movieActress'].hasError('required') && editAddForm.controls['movieActress'].touched"
+      class="form-error-msg">Actress Name is required</small>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Release Date</mat-label>
+        <input matInput placeholder="Release Date" formControlName="releaseDate">
+      </mat-form-field>
+      <small *ngIf="editAddForm.controls['releaseDate'].hasError('required') && editAddForm.controls['releaseDate'].touched"
+      class="form-error-msg">Release Date is required</small>
+      <div class="button-section">
+        <button mat-raised-button (click)="editAddForm.reset()">Reset</button>
+        <button mat-raised-button color="primary" (click)="submitForm()" [disabled]="!editAddForm.valid">Update</button>
+      </div>
+  </form>

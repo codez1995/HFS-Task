@@ -1,0 +1,200 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "movieName": "Ramprasad Ki Tehrvi",
+      "movieActor": "Naseeruddin Shah, Vinay Pathak",
+      "movieActress": "Seema Pahwa",
+      "releaseDate": "01-Jan-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 2,
+      "movieName": "Amangal",
+      "movieActor": "Avinash Dhyani",
+      "movieActress": "Suruchi Saklani",
+      "releaseDate": "01-Jan-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 3,
+      "movieName": "Kaagaz",
+      "movieActor": "Pankaj Tripathi",
+      "movieActress": "Sandeepa Dhar",
+      "releaseDate": "07-Jan-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 5,
+      "movieName": "Master ",
+      "movieActor": "Vijay, Vijay Sethupathi ",
+      "movieActress": "Malavika Mohanan",
+      "releaseDate": "14-Jan-2021",
+      "marked": "Marked"
+    },
+    {
+      "id": 6,
+      "movieName": "Bolo Hau",
+      "movieActor": " Ankit Rathi",
+      "movieActress": "Jahnavi Dhanrajgir",
+      "releaseDate": "15-Jan-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 7,
+      "movieName": "Madam Chief Minister ",
+      "movieActor": "Akshay Oberoi ",
+      "movieActress": "Richa Chadda ",
+      "releaseDate": "22-Jan-21 ",
+      "marked": "Marked"
+    },
+    {
+      "id": 8,
+      "movieName": "Satya Sai Baba ",
+      "movieActor": "Anup Jalota, Jackie Shroff ",
+      "movieActress": "Hema Malini",
+      "releaseDate": "29-Jan-21 ",
+      "marked": "Marked"
+    },
+    {
+      "id": 9,
+      "movieName": "Maassab ",
+      "movieActor": "ChandraBhushan Singh ",
+      "movieActress": "Sheetal Singh ",
+      "releaseDate": "29-Jan-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 10,
+      "movieName": "The In Complete Man",
+      "movieActor": "Freddy Daruwala",
+      "movieActress": "Warina Hussein",
+      "releaseDate": "01-Feb-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 11,
+      "movieName": "Aadhaar",
+      "movieActor": "Vineet Kumar Singh, Raghubir Yadav",
+      "movieActress": null,
+      "releaseDate": "05-Feb-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 12,
+      "movieName": "Chakra Ka Rakshak",
+      "movieActor": "Vishal Krishna",
+      "movieActress": "Shraddha Srinath",
+      "releaseDate": "19-Feb-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 13,
+      "movieName": "Tuesdays And Fridays",
+      "movieActor": "Anmol Thakeria Dhillon",
+      "movieActress": "Jhataleka",
+      "releaseDate": "19-Feb-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 14,
+      "movieName": "The Girl On The Train Bollywood Remake",
+      "movieActor": null,
+      "movieActress": "Parineeti Chopra, Aditi Rao Hydari",
+      "releaseDate": "26-Feb-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 15,
+      "movieName": "Blind",
+      "movieActor": "Vinay Pathak",
+      "movieActress": "Sonam Kapoor",
+      "releaseDate": "01-Mar-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 16,
+      "movieName": "Fauji Calling",
+      "movieActor": " Sharman Joshi, Ranjha Vikram Singh",
+      "movieActress": null,
+      "releaseDate": "11-Mar-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 17,
+      "movieName": "Roohi",
+      "movieActor": "Rajkummar Rao, Varun Sharma",
+      "movieActress": null,
+      "releaseDate": "11-Mar-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 18,
+      "movieName": "Time To Dance",
+      "movieActor": "Sooraj Pancholi",
+      "movieActress": "Isabelle Kaif",
+      "releaseDate": "12-Mar-21",
+      "marked": "Marked"
+    },
+    {
+      "id": 19,
+      "movieName": "The Wife ",
+      "movieActor": "Gurmeet Choudhary ",
+      "movieActress": "Sayani Dutta ",
+      "releaseDate": "19-Mar-21 ",
+      "marked": "Marked"
+    },
+    {
+      "movieName": "Hello1",
+      "movieActor": "xyz",
+      "movieActress": "yzkkk",
+      "releaseDate": "01-Jan-2022",
+      "marked": "UnMarked",
+      "id": 20
+    }
+  ],
+  "moviesColumn": [
+    {
+      "name": "Movie ID",
+      "columnName": "id",
+      "type": "text",
+      "class": "column",
+      "width": "100px"
+    },
+    {
+      "name": "Movie Name",
+      "columnName": "movieName",
+      "type": "text",
+      "class": "column",
+      "width": "250px"
+    },
+    {
+      "name": "Movie Actor",
+      "columnName": "movieActor",
+      "type": "text",
+      "class": "column",
+      "width": "250px"
+    },
+    {
+      "name": "Movie Actress",
+      "columnName": "movieActress",
+      "type": "text",
+      "class": "column",
+      "width": "150px"
+    },
+    {
+      "name": "Release Date",
+      "columnName": "releaseDate",
+      "type": "text",
+      "class": "column",
+      "width": "150px"
+    },
+    {
+      "name": "Actions",
+      "columnName": "actions",
+      "type": "icons",
+      "class": "action-columns",
+      "width": "150px"
+    }
+  ]
+}

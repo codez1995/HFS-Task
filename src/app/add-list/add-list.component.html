@@ -1,0 +1,33 @@
+<form class="example-form" [formGroup]="listAddForm">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Movie Name</mat-label>
+    <input matInput placeholder="Movie Name" formControlName="movieName">
+  </mat-form-field>
+  <small *ngIf="listAddForm.controls['movieName'].hasError('required') && listAddForm.controls['movieName'].touched"
+    class="form-error-msg">Movie Name is required</small>
+    <small *ngIf="listAddForm.controls['movieName'].hasError('custom')"
+    class="form-error-msg">Please Check, Movie Name already having in a Movie List</small>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Actor Name</mat-label>
+    <input matInput placeholder="Actor Name" formControlName="movieActor">
+  </mat-form-field>
+  <small *ngIf="listAddForm.controls['movieActor'].hasError('required') && listAddForm.controls['movieActor'].touched"
+    class="form-error-msg">Actor Name is required</small>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Actress Name</mat-label>
+    <input matInput placeholder="Actress Name" formControlName="movieActress">
+  </mat-form-field>
+  <small
+    *ngIf="listAddForm.controls['movieActress'].hasError('required') && listAddForm.controls['movieActress'].touched"
+    class="form-error-msg">Actress Name is required</small>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Release Date</mat-label>
+    <input matInput placeholder="Release Date" formControlName="releaseDate">
+  </mat-form-field>
+  <small *ngIf="listAddForm.controls['releaseDate'].hasError('required') && listAddForm.controls['releaseDate'].touched"
+    class="form-error-msg">Release Date is required</small>
+    <div class="button-section">
+      <button mat-raised-button (click)="listAddForm.reset()">Reset</button>
+  <button mat-raised-button color="primary" (click)="submitForm()" [disabled]="!listAddForm.valid">Add</button>
+    </div>
+</form>
